@@ -1,18 +1,1 @@
-1. pip install django
-2. django-admin startproject begin
-3. cd begin (python manage.py runserver)
-4. python manage.py startapp main
-5. .\manage.py startapp nothing
-
-1. прописать название приложения, которое есть в нашем проекте в списке в файле settings.py
-2. path('', include('main.urls')) указывает на файл urls.py из папки main
-
-6. python manage.py makemigrations
-7. python manage.py migrate
-
-////////////
-create admin
-http://127.0.0.1:8000/admin/login/?next=/admin/
-1. python manage.py createsuperuser
-admin
-12345
+MY_SYTE
